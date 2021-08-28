@@ -34,7 +34,7 @@ for flt in wordml:
     print("found word is:", fndwrd)
     print("scrumbled word is:", scrumbledword)
     print("letter no",i)
-    while glt is not flt:
+    while glt != flt:
         tries+=1
         glt=input("Guess:")
     fndwrd.append(glt)
